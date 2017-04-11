@@ -7,6 +7,8 @@ http.createServer(function(req, res) => {
     'Content-Type': 'text/plain'
   });
   res.end('Hello World');
+//   res.write('Hello hien');
+//   res.end();
 }).listen(3000);
 
 
