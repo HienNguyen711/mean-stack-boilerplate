@@ -44,3 +44,13 @@ app.listen(3000);
 console.log('Server running at http://localhost:3000/');
 
 module.exports = app;
+
+
+// exports.render = function(req, res) {
+//   res.status(200).send('Hello World');
+// };
+
+
+// app.get('/', (req, res) => {
+//   res.status(200).send('This is a GET request');
+// });
