@@ -2,7 +2,8 @@
 
 
 ## What is this
-MEAN stack boilerplate 
+MEAN stack boilerplate - with Angular 2 
+(will be updated to Angular 4)
 
 ## Check 
 https://www.npmjs.com/package/mean-stack-boilerplate
