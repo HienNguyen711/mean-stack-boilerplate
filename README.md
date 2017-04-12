@@ -34,6 +34,8 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 + E2E tests
 + Testing Express
 + Mocha
++ Should.js
++ Super test modules
 
 
 ## Testing convention
