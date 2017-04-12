@@ -90,4 +90,6 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 
 
 ### Update
-+ 
++ `Model.update(conditions, update, [options], [callback])`
++ `Model.findByIdAndUpdate(id, [update], [options], [callback])`
++ `Model.findOneAndUpdate([conditions], [update], [options], [callback])`
