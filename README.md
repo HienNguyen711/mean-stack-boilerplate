@@ -22,7 +22,7 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 ## Other command
 + `npm run lint` -> Linting
 + `npm run debug`
-+ `NODE_ENV=test mocha --reporter spec app/tests`
++ `NODE_ENV=test mocha --reporter spec app/tests` `set NODE_ENV=test`  `mocha --reporter spec app/tests`
 
 
 
