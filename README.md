@@ -30,6 +30,9 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 ## Download chrome extension
 + https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd/related
 
++ AngularJS Batarang
+
+
 
 ## Testing
 + Unit tests 
@@ -52,3 +55,30 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 + `beforeEach(callback)`
 + `after(callback)`
 + `afterEach(callback)`
+
+
+
+
+## MongoDB example queries
++ `db.products.insert({
+  title: 'Product1',
+  stock: 15,
+  price: 112.36
+})`
++ `db.products.find()`
++ `db.products.update({},
+  { $set: {title: 'MEANshop'} },
+  { multi: true}
+)`
++ `db.products.remove({})`
++ `db.products.aggregate([{
+  $group: {
+    _id: null,
+    total: { $sum: "$price" }
+  }
+}])`
++ `db.products.aggregate([
+  { $match: {title: 'Product' }},
+  { $group: { _id: '$title', total: { $sum: "$price" } }}
+])`
++ Aggregators : `$sum,$match,$group,$sort`
