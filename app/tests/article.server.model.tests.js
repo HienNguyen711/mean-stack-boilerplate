@@ -1,14 +1,15 @@
 'use strict';
-
+//requires
 const app = require('../../server.js');
 const should = require('should');
 const mongoose = require('mongoose');
-const User = mongoose.model('User');
-const Article = mongoose.model('Article');
+const User = mongoose.model('User');//call the user model
+const Article = mongoose.model('Article');//call the article model 
 
 let user, article;
 
 describe('Article Model Unit Tests:', () => {
+    //before 
   beforeEach((done) => {
     user = new User({
       firstName: 'Full',
@@ -33,7 +34,7 @@ describe('Article Model Unit Tests:', () => {
   describe('Testing the save method', () => {
     it('Should be able to save without problems', () => {
       article.save((err) => {
-        should.not.exist(err);
+        should.not.exist(err);//no error 
       });
     });
 
@@ -49,7 +50,7 @@ describe('Article Model Unit Tests:', () => {
   afterEach((done) => {
     Article.remove(() => {
       User.remove(() => {
-        done();
+        done();//finish the test 
       });
     });
   });
