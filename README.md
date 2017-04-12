@@ -15,3 +15,9 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 
 
 ## File naming convention 
+
+
+
+## Other command
++ `npm run lint` -> Linting
++ `npm run debug`
