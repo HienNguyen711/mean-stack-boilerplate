@@ -39,6 +39,11 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 + Should.js
 + Super test modules
 
++ Testing for front-end Angular 2 - Jasmine
++ Karma - test runner
++ PhantomJS browser launcher - headless browser
+
+
 
 ## Testing convention
 + `describe(description, callback)`
