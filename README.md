@@ -82,3 +82,12 @@ https://www.npmjs.com/package/mean-stack-boilerplate
   { $group: { _id: '$title', total: { $sum: "$price" } }}
 ])`
 + Aggregators : `$sum,$match,$group,$sort`
+### Find
++ `Model.find(conditions, [fields], [options], [callback])`
++ `Model.findById(id, [fields], [options], [callback])`
++ `Model.findOne(conditions, [fields], [options], [callback])`
++ ``
+
+
+### Update
++ 
