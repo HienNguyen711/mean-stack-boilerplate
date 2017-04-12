@@ -9,6 +9,7 @@ MEAN stack boilerplate - with Angular 2
 https://www.npmjs.com/package/mean-stack-boilerplate
 
 ## How to run/install
++ `npm install`
 + `node server.js`
 + `npm start`
 + Navigate to `localhost:3000/`
