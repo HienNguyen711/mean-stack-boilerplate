@@ -10,6 +10,8 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 
 ## How to run/install
 + `node server.js`
++ `npm start`
++ Navigate to `localhost:3000/`
 
 
 ## File naming convention 
