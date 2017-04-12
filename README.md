@@ -93,3 +93,9 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 + `Model.update(conditions, update, [options], [callback])`
 + `Model.findByIdAndUpdate(id, [update], [options], [callback])`
 + `Model.findOneAndUpdate([conditions], [update], [options], [callback])`
+
+
+### Delete
++ `Model.remove(conditions, [callback])`
++ `Model.findByIdAndRemove(id, [options], [callback])`
++ `Model.findOneAndRemove(conditions, [options], [callback])`
