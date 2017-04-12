@@ -1,9 +1,9 @@
-{
-    "extends": "eslint:recommended",
-  "parserOptions": {
-    "ecmaVersion": 6
-  },
-  "rules": {
-    "indent": ["error", 2]
-  }
-}
+// {
+//     "extends": "eslint:recommended",
+//   "parserOptions": {
+//     "ecmaVersion": 6
+//   },
+//   "rules": {
+//     "indent": ["error", 2]
+//   }
+// }
