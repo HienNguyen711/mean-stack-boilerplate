@@ -30,5 +30,15 @@
     "morgan": "^1.8.1",
     "nodemon": "^1.11.0",
     "should": "^11.2.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.3"
   }
 }
