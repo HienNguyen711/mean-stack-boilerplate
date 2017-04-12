@@ -21,3 +21,19 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 ## Other command
 + `npm run lint` -> Linting
 + `npm run debug`
+
+
+
+
+## Download chrome extension
++ https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd/related
+
+
+## Testing
++ Unit tests 
++ E2E tests
++ Testing Express
++ Mocha
+
+
+## Testing convention
