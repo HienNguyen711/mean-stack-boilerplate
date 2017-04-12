@@ -103,7 +103,17 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 
 
 ## Deploy on cloud service platform
-+ Heroku : `foreman start`
++ Heroku : `foreman start`-`heroku create`-`git push heroku master`- add single web dyno `heroku ps:scale web=1`-check live `heroku open`
 + Firebase
 + Google cloud platform
+
+
+## Git deploy
++ `git init`
++ `git add .`
++ `git commit -m "first commit"`
+
+
+## Settings
++ `NODE_ENV=production`
 
