@@ -37,3 +37,9 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 
 
 ## Testing convention
++ `describe(description, callback)`
++ `it(description, callback)`
++ `before(callback)`
++ `beforeEach(callback)`
++ `after(callback)`
++ `afterEach(callback)`
