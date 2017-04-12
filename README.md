@@ -99,3 +99,11 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 + `Model.remove(conditions, [callback])`
 + `Model.findByIdAndRemove(id, [options], [callback])`
 + `Model.findOneAndRemove(conditions, [options], [callback])`
+
+
+
+## Deploy on cloud service platform
++ Heroku : `foreman start`
++ Firebase
++ Google cloud platform
+
