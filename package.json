@@ -25,6 +25,7 @@
     "body-parser": "^1.17.1",
     "compression": "^1.6.2",
     "connect": "^3.6.0",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
     "debug": "^2.6.3",
     "eslint": "^3.19.0",
