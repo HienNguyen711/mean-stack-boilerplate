@@ -58,6 +58,9 @@
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-requirejs": "^1.1.0",
-    "requirejs": "^2.3.3"
+    "mongodb": "^2.2.25",
+    "monk": "^4.0.0",
+    "requirejs": "^2.3.3",
+    "socket.io": "^1.7.3"
   }
 }
