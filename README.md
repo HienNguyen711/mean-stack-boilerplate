@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/HienNguyen711/mean-stack-boilerplate.svg?branch=master)](https://travis-ci.org/HienNguyen711/mean-stack-boilerplate)
 # mean-stack-boilerplate
 
 
