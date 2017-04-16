@@ -80,3 +80,19 @@ exports.update = function(req, res) {
 
 
 }
+
+//delete one article
+exports.delete = function(req, res) {
+    const article = req.article;
+    article.remove((err) =>{
+        if(err){
+            return res.status(400).send({
+        message: getErrorMessage(err)
+      });
+        } else {
+             res.status(200).json(article);
+        }
+    })
+}
+
+
