@@ -117,3 +117,8 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 ## Settings
 + `NODE_ENV=production`
 
+
+
+## Angular SEO for crawler
++ Replace hash with HTML5 routing mode
+

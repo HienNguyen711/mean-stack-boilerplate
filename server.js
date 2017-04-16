@@ -3,7 +3,13 @@
 
 const express = require('express');
 const app = express();
-
+var server = require('http').Server(app);//create http server 
+var io = require('socket.io')(server);//init socket.io 
+app.use(function(req, res, next){//use it with middleware
+  
+  res.io = io;
+  next();
+});
 
 
 const PORT = process.env.PORT || 3000;
