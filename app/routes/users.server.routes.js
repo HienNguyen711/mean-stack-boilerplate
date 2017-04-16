@@ -11,3 +11,10 @@ module.exports = function(app) {
     .post(users.create)
     .get(users.list);
 };
+
+
+//middleware require login from user --- authentication 
+exports.requiresLogin = function(req, res, next) {
+
+
+};
