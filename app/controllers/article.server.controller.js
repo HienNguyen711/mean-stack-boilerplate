@@ -16,3 +16,20 @@ function getErrorMessage (err) {
 
 
 };
+
+//create new article
+exports.create = function(req, res) {
+    //instance of article model
+    const article = new Article(req.body);
+    article.creator = req.user;
+
+    article.save((err) => {
+        if(err){
+            return res.status(400).send({
+                message:getErrorMessage(err);
+            });
+        } else {
+            res.status(200).json(article);
+        }
+    });
+};
