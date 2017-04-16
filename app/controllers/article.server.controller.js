@@ -47,7 +47,7 @@ exports.list = function(req, res) {
     });
 };
 
-//find one article by article id 
+//find one article by article id --- middleware read 
 exports.articleByID = function(req, res, next, id) {
     Article.findById(id).populate('creator', 'firstName lastName fullName').exec((err,article) => {
         if (err) return next(err);
@@ -59,3 +59,24 @@ exports.articleByID = function(req, res, next, id) {
 
 
 };
+
+//update one article by getting article in the middleware above
+exports.update = function(req, res) {
+    const article = req.article;
+    article.title = req.body.title;
+  article.content = req.body.content;
+  article.location = req.body.location;
+
+  article.save((err)=> {
+      if (err) {
+      return res.status(400).send({
+        message: getErrorMessage(err)
+      });
+    } else {
+      res.status(200).json(article);
+    }
+  
+  });
+
+
+}
