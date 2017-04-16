@@ -2,7 +2,8 @@
 
 
 ## What is this
-MEAN stack boilerplate - with Angular 2 
+MEAN stack boilerplate - with CRUD architecture 
+MongoDB - Express - Angular 2 - NodeJS 
 (will be updated to Angular 4)
 
 ## Check 
