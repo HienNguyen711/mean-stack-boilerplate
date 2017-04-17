@@ -9,8 +9,10 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "app": "node server",
-    "start": "concurrently \"npm run tsc:w\" \"npm run app\" ",
-    "postinstall": "typings install"
+    "start": "concurrently \"npm run webpack\" \"npm run app\" ",
+    "postinstall": "typings install",
+    "webpack": "webpack --watch",
+    "lint": "eslint --ext .js ./config ./app ./*.js"
   },
   "engines": {
     "node": "",
@@ -56,6 +58,7 @@
     "should": "^11.2.1"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
     "bower": "^1.8.0",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
