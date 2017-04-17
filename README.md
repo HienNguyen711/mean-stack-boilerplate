@@ -124,3 +124,5 @@ https://www.npmjs.com/package/mean-stack-boilerplate
 ## Angular SEO for crawler
 + Replace hash with HTML5 routing mode
 
+## NPM scripts
++ `npm run debug` : debug the application
